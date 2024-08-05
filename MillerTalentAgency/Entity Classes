@@ -1,0 +1,11 @@
+@Entity
+public class User {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String username;
+    private String password;
+    private String role; // actor, screenwriter, director, coordinator
+    // other fields, getters, setters
+}
+
+// Define other entities similarly: UserDetails, Movie, City, MovieApplication, JobTitles
