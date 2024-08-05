@@ -1,0 +1,8 @@
+@Service
+public class UserService {
+    @Autowired
+    private UserRepository userRepository;
+    // Other service methods
+}
+
+// Define other services similarly: MovieService, ApplicationService, etc.
